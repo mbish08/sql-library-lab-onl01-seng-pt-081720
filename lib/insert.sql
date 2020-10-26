@@ -46,3 +46,5 @@ VALUES ("Brotanduive", "motto d", "Elf", 2);
 INSERT INTO subgenres (name) VALUES ("high fantasy");
 INSERT INTO subgenres (name) VALUES ("vampires");
 
+INSERT INTO authors (name) VALUES ("Anne Bishop");
+INSERT INTO authors (name) VALUES ("Barb Hendee");
