@@ -23,12 +23,22 @@ INSERT INTO characters (name, motto, species, author_id)
 VALUES ("Daemon", "motto one", "Blood", 1);
 
 INSERT INTO characters (name, motto, species, author_id)
-VALUES ("Janelle");
+VALUES ("Janelle", "motto two", "Queen", 1);
 
 INSERT INTO characters (name, motto, species, author_id)
-VALUES ();
+VALUES ("Satan", "motto three", "Blood", 1);
 
 INSERT INTO characters (name, motto, species, author_id)
-VALUES ();
+VALUES ("Lucifer", "motto four", "Blood", 1);
 
+INSERT INTO characters (name, motto, species, author_id)
+VALUES ("Magiere", "motto a", "Dhampir", 2);
 
+INSERT INTO characters (name, motto, species, author_id)
+VALUES ("Leesil", "motto b", "half-elf", 2);
+
+INSERT INTO characters (name, motto, species, author_id)
+VALUES ("Chap", "motto c", "Fey", 2);
+
+INSERT INTO characters (name, motto, species, author_id)
+VALUES ("Brotanduive", "motto d", "Elf", 2);
