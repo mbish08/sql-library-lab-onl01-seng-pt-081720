@@ -49,6 +49,19 @@ INSERT INTO subgenres (name) VALUES ("vampires");
 INSERT INTO authors (name) VALUES ("Anne Bishop");
 INSERT INTO authors (name) VALUES ("Barb Hendee");
 
-SELECT * FROM characters 
-INNER JOIN books
-  ON 
+INSERT INTO character_books (book_id, character_id) VALUES (1, 1);
+INSERT INTO character_books (book_id, character_id) VALUES (2, 1);
+INSERT INTO character_books (book_id, character_id) VALUES (3, 1);
+INSERT INTO character_books (book_id, character_id) VALUES (1, 2);
+INSERT INTO character_books (book_id, character_id) VALUES (2, 2);
+INSERT INTO character_books (book_id, character_id) VALUES (3, 2);
+INSERT INTO character_books (book_id, character_id) VALUES (1, 3);
+INSERT INTO character_books (book_id, character_id) VALUES (2, 4);
+INSERT INTO character_books (book_id, character_id) VALUES (4, 5);
+INSERT INTO character_books (book_id, character_id) VALUES (5, 5);
+INSERT INTO character_books (book_id, character_id) VALUES (6, 5);
+INSERT INTO character_books (book_id, character_id) VALUES (4, 6);
+INSERT INTO character_books (book_id, character_id) VALUES (5, 6);
+INSERT INTO character_books (book_id, character_id) VALUES (6, 6);
+INSERT INTO character_books (book_id, character_id) VALUES (5, 7);
+INSERT INTO character_books (book_id, character_id) VALUES (6, 8);
