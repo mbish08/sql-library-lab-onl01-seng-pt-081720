@@ -42,3 +42,7 @@ VALUES ("Chap", "motto c", "Fey", 2);
 
 INSERT INTO characters (name, motto, species, author_id)
 VALUES ("Brotanduive", "motto d", "Elf", 2);
+
+INSERT INTO subgenres (name) VALUES ("high fantasy");
+INSERT INTO subgenres (name) VALUES ("vampires");
+
