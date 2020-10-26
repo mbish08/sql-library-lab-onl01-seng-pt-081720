@@ -20,4 +20,15 @@ INSERT INTO books (title, year, series_id)
 VALUES ("Sister of the Dead", 2005, 2);
 
 INSERT INTO characters (name, motto, species, author_id)
+VALUES ("Daemon", "motto one", "Blood", 1);
+
+INSERT INTO characters (name, motto, species, author_id)
+VALUES ("Janelle");
+
+INSERT INTO characters (name, motto, species, author_id)
 VALUES ();
+
+INSERT INTO characters (name, motto, species, author_id)
+VALUES ();
+
+
