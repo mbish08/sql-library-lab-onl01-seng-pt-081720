@@ -18,3 +18,6 @@ VALUES ("Thief of Lives", 2004, 2);
 
 INSERT INTO books (title, year, series_id) 
 VALUES ("Sister of the Dead", 2005, 2);
+
+INSERT INTO characters (name, motto, species, author_id)
+VALUES ();
