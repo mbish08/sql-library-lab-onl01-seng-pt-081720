@@ -48,3 +48,7 @@ INSERT INTO subgenres (name) VALUES ("vampires");
 
 INSERT INTO authors (name) VALUES ("Anne Bishop");
 INSERT INTO authors (name) VALUES ("Barb Hendee");
+
+SELECT * FROM characters 
+INNER JOIN books
+  ON 
